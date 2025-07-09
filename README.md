@@ -47,7 +47,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/TranslaTex.git
+git clone https://github.com/choucisan/TranslaTex.git
 cd TranslaTex
 ```
 
