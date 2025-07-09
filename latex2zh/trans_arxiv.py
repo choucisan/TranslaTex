@@ -1,5 +1,4 @@
 from latex2zh.latex_process import patch_tex_bibliography
-from . import utils
 from . import latex_process
 from . import file_process
 from .translatex import translate_single_tex_file

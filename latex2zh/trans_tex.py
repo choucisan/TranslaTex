@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 import os
-import sys
-from . import utils
 from .translatex import translate_single_tex_file
 import subprocess
 
