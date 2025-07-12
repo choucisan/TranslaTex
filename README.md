@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./images/TranslaTex.png" width="400px" alt="TranslaTex Logo"/>
+<img src="./images/TranslaTex.png" width="1000px" alt="TranslaTex Logo"/>
 
 <h2 id="title">TranslaTex</h2>
 
