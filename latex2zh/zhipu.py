@@ -44,7 +44,7 @@ class ZhipuTranslator:
                 self.wait_for_rate_limit()
 
                 response = self.client.chat.asyncCompletions.create(
-                    model="glm-4-flash-250414",
+                    model=" GLM-4.5",
                     messages=[{"role": "user", "content": prompt}],
                 )
 

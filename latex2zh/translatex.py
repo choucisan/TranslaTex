@@ -4,6 +4,7 @@ from . import text_process
 from . import cache
 from .tencnet import TencentTranslator
 from .zhipu import ZhipuTranslator
+from .deepseek import DeepSeekTranslator
 from .config import config
 from .latex_process import environment_list, command_list, format_list
 from .text_process import char_limit
@@ -40,6 +41,11 @@ class TextTranslator:
         elif engine == 'Zhipu':
             self.translator = ZhipuTranslator()
             self.try_translate = lambda text: self.translator.translate(text, self.language_to, self.language_from)
+
+        elif engine == 'DeepSeek':
+            self.translator = DeepSeekTranslator()
+            self.try_translate = lambda text: self.translator.translate(text, self.language_to, self.language_from)
+
 
         else:
             assert False, "engine must be google or tencent"

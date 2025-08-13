@@ -179,7 +179,7 @@ env_field_map = {
         "API Key": "groq_key"
     },
     "DeepSeek": {
-        "API Key": "deepseek_key"
+        "API Key": "deepseek_key_default"
     },
     "OpenAI-liked": {
         "API Key": "openai_like_key"

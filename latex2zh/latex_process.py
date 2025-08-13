@@ -44,7 +44,7 @@ pattern_newcommand = rf'\\(?:newcommand|def){spaces}(?:\{{\\([a-zA-Z]+)\}}|\\([a
 pattern_set1 = rf'\\set[a-zA-Z]*{spaces}\\[a-zA-Z]+{spaces}\{{.*?\}}'
 pattern_set2 = rf'\\set[a-zA-Z]*{spaces}\{{\\[a-zA-Z]+\}}{spaces}\{{.*?\}}'
 pattern_theorem = r"\\newtheorem[ \t]*\{(.+?)\}"  # \newtheorem{xxx}, group 1: name
-pattern_accent = r"\\([`'\"^~=.])(?:\{([a-zA-Z])\}|([a-zA-Z]))"  # match special characters with accents, group 1: accent, group 2/3: normal character
+pattern_accent = r"\\([`'\"^=.])(?:\{([a-zA-Z])\}|([a-zA-Z]))"  # match special characters with accents, group 1: accent, group 2/3: normal character
 match_code_accent = rf'{math_code}([A-Z]{{2}})([a-zA-Z])'  # group 1: accent name, group 2: normal character, e.g. \"o or \"{o}
 list_special = ['\\', '%', '&', '#', '$', '{', '}', ' ']  # all special characters in form of \x
 
@@ -59,7 +59,7 @@ special_character_forward = {
     '^': 'UT',
     ' ': 'SP',
     '`': 'BQ',
-    '~': 'TD',
+    '': 'TD',
     "'": 'SQ',
     '"': 'DQ',
     '=': 'EQ',

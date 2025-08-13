@@ -17,11 +17,9 @@ class Config:
     default_engine_default = 'tencent'
     default_language_from_default = 'en'
     default_language_to_default = 'zh-CN'
-    default_loading_dir_default = os.path.expanduser("~")
-    default_saving_dir_default = os.path.expanduser("~")
+    default_loading_dir_default = os.path.expanduser("")
+    default_saving_dir_default = os.path.expanduser("")
     default_threads_default = 0
-
-
 
     #tencent key
     tencent_secret_id_default = None
@@ -29,6 +27,10 @@ class Config:
 
     #zhipu key
     zhipu_key_default = None
+
+    #dseepseek key
+    deepseek_key_default = None
+
 
 
 

@@ -277,7 +277,7 @@ class ProfileCredential():
 
         Access https://console.cloud.tencent.com/cam/capi to manage your credentials.
 
-        default file position is "~/.tencentcloud/credentials" or "/etc/tencentcloud/credentials", it is ini format.
+        default file position is "/.tencentcloud/credentials" or "/etc/tencentcloud/credentials", it is ini format.
         such as:
         [default]
         secret_id=""

@@ -20,5 +20,4 @@ from . import file_process
 from . import text_process
 from . import latex_process
 from . import translatex
-from . import utils
 from . import tencnet
